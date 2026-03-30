@@ -84,7 +84,7 @@ export function Footer() {
         {/* Bottom */}
         <div className="flex flex-col md:flex-row items-center justify-between pt-8 border-t border-border gap-4">
           <span className="text-[10px] uppercase tracking-widest text-muted-foreground">
-            © 2024 НОКС. Все права защищены
+            © 2026 НОКС. Все права защищены
           </span>
           <div className="flex items-center gap-8">
             <Link href="#" className="text-[10px] uppercase tracking-widest text-muted-foreground hover:text-foreground transition-colors">
