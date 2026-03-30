@@ -4,6 +4,17 @@ import { motion } from "framer-motion"
 import Link from "next/link"
 
 export function Header() {
+  const handleSmoothScroll = (e: React.MouseEvent<HTMLAnchorElement>, targetId: string) => {
+    e.preventDefault()
+    const element = document.querySelector(targetId)
+    if (element) {
+      element.scrollIntoView({ 
+        behavior: 'smooth',
+        block: 'start'
+      })
+    }
+  }
+
   return (
     <motion.header 
       initial={{ opacity: 0, y: -20 }}
@@ -24,34 +35,38 @@ export function Header() {
 
           {/* Nav */}
           <nav className="hidden md:flex items-center gap-12">
-            <Link 
+            <a 
               href="#services" 
-              className="text-[11px] uppercase tracking-widest text-muted-foreground hover:text-foreground transition-colors"
+              onClick={(e) => handleSmoothScroll(e, '#services')}
+              className="text-[11px] uppercase tracking-widest text-muted-foreground hover:text-foreground transition-colors duration-300 hover:tracking-[0.2em]"
             >
               Услуги
-            </Link>
-            <Link 
+            </a>
+            <a 
               href="#cases" 
-              className="text-[11px] uppercase tracking-widest text-muted-foreground hover:text-foreground transition-colors"
+              onClick={(e) => handleSmoothScroll(e, '#cases')}
+              className="text-[11px] uppercase tracking-widest text-muted-foreground hover:text-foreground transition-colors duration-300 hover:tracking-[0.2em]"
             >
               Кейсы
-            </Link>
-            <Link 
+            </a>
+            <a 
               href="#contact" 
-              className="text-[11px] uppercase tracking-widest text-muted-foreground hover:text-foreground transition-colors"
+              onClick={(e) => handleSmoothScroll(e, '#contact')}
+              className="text-[11px] uppercase tracking-widest text-muted-foreground hover:text-foreground transition-colors duration-300 hover:tracking-[0.2em]"
             >
               Контакты
-            </Link>
+            </a>
           </nav>
 
           {/* CTA */}
-          <Link 
+          <a 
             href="#contact"
-            className="text-[11px] uppercase tracking-widest hover:text-accent transition-colors flex items-center gap-2"
+            onClick={(e) => handleSmoothScroll(e, '#contact')}
+            className="text-[11px] uppercase tracking-widest hover:text-accent transition-all duration-300 flex items-center gap-2 group"
           >
             <span className="hidden sm:inline">Обсудить проект</span>
-            <span className="w-2 h-2 bg-accent rounded-full" />
-          </Link>
+            <span className="w-2 h-2 bg-accent rounded-full group-hover:scale-150 transition-transform duration-300" />
+          </a>
         </div>
       </div>
     </motion.header>
