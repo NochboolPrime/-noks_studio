@@ -59,36 +59,12 @@ const adminFeatures = [
 ]
 
 const screenshots = [
-  {
-    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/medved-hero-YUKEkEWZhD4OZEzlmfhMD74LNnz22S.png",
-    alt: "Главная страница",
-    label: "Hero"
-  },
-  {
-    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/medved-catalog-2h2jbqT40wEIT3GCIcTLAFjQzoRSwB.png",
-    alt: "Каталог продукции",
-    label: "Каталог"
-  },
-  {
-    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/medved-about-58uy7neiNtqytNUVqZ4g5bZulPJV4f.png",
-    alt: "О компании",
-    label: "О компании"
-  },
-  {
-    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/medved-certificates-0whXwdJy1k7zo0DI9gP8xcdLCGi6E4.png",
-    alt: "Сертификаты",
-    label: "Сертификаты"
-  },
-  {
-    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/medved-admin-gvpj6HHrkPRrm5Kco7sdPkwvOC7F7W.png",
-    alt: "Админ-панель",
-    label: "Админ-панель"
-  },
-  {
-    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/medved-analytics-XeHP0laKftfgy8fYt6iTEWLKDzgYbY.png",
-    alt: "Аналитика",
-    label: "Аналитика"
-  },
+  { src: "/images/projects/medved-hero.png", alt: "Главная страница", label: "Hero" },
+  { src: "/images/projects/medved-catalog.png", alt: "Каталог продукции", label: "Каталог" },
+  { src: "/images/projects/medved-about.png", alt: "О компании", label: "О компании" },
+  { src: "/images/projects/medved-certificates.png", alt: "Сертификаты", label: "Сертификаты" },
+  { src: "/images/projects/medved-admin.png", alt: "Админ-панель", label: "Админ-панель" },
+  { src: "/images/projects/medved-analytics.png", alt: "Аналитика", label: "Аналитика" },
 ]
 
 export default function MedvedNeftegazPage() {
@@ -148,7 +124,7 @@ export default function MedvedNeftegazPage() {
             className="aspect-video overflow-hidden border border-border"
           >
             <img 
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/medved-hero-YUKEkEWZhD4OZEzlmfhMD74LNnz22S.png"
+              src="/images/projects/medved-hero.png"
               alt="ТД Медведь Нефтегаз - главная страница"
               className="w-full h-full object-cover"
             />
@@ -376,7 +352,7 @@ export default function MedvedNeftegazPage() {
                 className="aspect-video overflow-hidden border border-border"
               >
                 <img 
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/medved-admin-gvpj6HHrkPRrm5Kco7sdPkwvOC7F7W.png"
+                  src="/images/projects/medved-admin.png"
                   alt="Админ-панель ТД Медведь"
                   className="w-full h-full object-cover"
                 />

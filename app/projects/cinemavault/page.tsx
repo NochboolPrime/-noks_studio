@@ -51,31 +51,11 @@ export default function CinemaVaultCasePage() {
   ]
 
   const screenshots = [
-    { 
-      src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/cinemavault-hero-lDEF5EV5G8hIA76oPE5jQRggYPRRu6.png", 
-      alt: "CinemaVault главная страница",
-      label: "Главная страница"
-    },
-    { 
-      src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/cinemavault-catalog-89snLx6CulAmzfbXQqkynCiiOQVaMe.png", 
-      alt: "CinemaVault каталог",
-      label: "Каталог фильмов"
-    },
-    { 
-      src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/cinemavault-profile-fWIOSoamAzLErtmJBGZQOX5rlJEhWT.png", 
-      alt: "CinemaVault профиль",
-      label: "Личный кабинет"
-    },
-    { 
-      src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/cinemavault-admin-giUoBEQMTsr6hj6zcFqpMrt4ZJmXUE.png", 
-      alt: "CinemaVault админ-панель",
-      label: "Админ-панель"
-    },
-    { 
-      src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/cinemavault-admin-form-0HRV5tBnj8hqndHDJhlMFvgRLGEVNi.png", 
-      alt: "CinemaVault форма добавления",
-      label: "Добавление релиза"
-    }
+    { src: "/images/projects/cinemavault-hero.png", alt: "CinemaVault главная страница", label: "Главная страница" },
+    { src: "/images/projects/cinemavault-catalog.png", alt: "CinemaVault каталог", label: "Каталог фильмов" },
+    { src: "/images/projects/cinemavault-profile.png", alt: "CinemaVault профиль", label: "Личный кабинет" },
+    { src: "/images/projects/cinemavault-admin.png", alt: "CinemaVault админ-панель", label: "Админ-панель" },
+    { src: "/images/projects/cinemavault-admin-form.png", alt: "CinemaVault форма добавления", label: "Добавление релиза" }
   ]
 
   return (
@@ -136,7 +116,7 @@ export default function CinemaVaultCasePage() {
             className="aspect-video overflow-hidden border border-border"
           >
             <img 
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/cinemavault-hero-lDEF5EV5G8hIA76oPE5jQRggYPRRu6.png"
+              src="/images/projects/cinemavault-hero.png"
               alt="CinemaVault главная страница"
               className="w-full h-full object-cover"
             />
@@ -389,7 +369,7 @@ export default function CinemaVaultCasePage() {
                 className="aspect-video overflow-hidden border border-border"
               >
                 <img 
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/cinemavault-admin-form-0HRV5tBnj8hqndHDJhlMFvgRLGEVNi.png"
+                  src="/images/projects/cinemavault-admin-form.png"
                   alt="CinemaVault админ-панель"
                   className="w-full h-full object-cover"
                 />
@@ -412,7 +392,7 @@ export default function CinemaVaultCasePage() {
                 className="aspect-video overflow-hidden border border-border"
               >
                 <img 
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/cinemavault-profile-fWIOSoamAzLErtmJBGZQOX5rlJEhWT.png"
+                  src="/images/projects/cinemavault-profile.png"
                   alt="CinemaVault личный кабинет"
                   className="w-full h-full object-cover"
                 />

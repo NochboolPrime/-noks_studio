@@ -56,7 +56,7 @@ export function Services() {
               <span className="text-[10px] uppercase tracking-widest text-muted-foreground mb-4 block">003 / Процесс</span>
               <div className="aspect-[4/5] bg-foreground/5 overflow-hidden">
                 <img 
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Robot%20surr%C3%A9aliste-Jut4BBIPYS3b7dlIUjJgGcL9F2uTYo.jpg" 
+                  src="/images/robot.jpg" 
                   alt="Surrealist robot"
                   className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
                 />

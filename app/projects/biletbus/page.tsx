@@ -57,12 +57,12 @@ export default function BiletBusPage() {
   ]
 
   const screenshots = [
-    { src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/biletbus-hero-3dERFAs6ojUewJOL1TLFdQd9JQirGg.png", alt: "Главная страница", label: "Главная страница" },
-    { src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/biletbus-schedule-mBnCvWo0GRud9WDmTzAhSV8PQuFgQi.png", alt: "Расписание рейсов", label: "Расписание рейсов" },
-    { src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/biletbus-profile-ZBsw9RH5bUeiGDMBQJegCKmLhuNzVZ.png", alt: "Личный кабинет", label: "Личный кабинет" },
-    { src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/biletbus-driver-eCLhZK5b9OP41sc41ROBZEpNAY6uIm.png", alt: "Панель водителя", label: "Панель водителя" },
-    { src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/biletbus-admin-trips-1DMViCsL5G1yBb458QucogcpHjQ8Ww.png", alt: "Админ - Рейсы", label: "Админ - Рейсы" },
-    { src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/biletbus-admin-users-KBhPhRsQ4BVJTgcLVmBwSLKvhY8RmQ.png", alt: "Админ - Пользователи", label: "Админ - Пользователи" },
+    { src: "/images/projects/biletbus-hero.png", alt: "Главная страница", label: "Главная страница" },
+    { src: "/images/projects/biletbus-schedule.png", alt: "Расписание рейсов", label: "Расписание рейсов" },
+    { src: "/images/projects/biletbus-profile.png", alt: "Личный кабинет", label: "Личный кабинет" },
+    { src: "/images/projects/biletbus-driver.png", alt: "Панель водителя", label: "Панель водителя" },
+    { src: "/images/projects/biletbus-admin-trips.png", alt: "Админ - Рейсы", label: "Админ - Рейсы" },
+    { src: "/images/projects/biletbus-admin-users.png", alt: "Админ - Пользователи", label: "Админ - Пользователи" },
   ]
 
   return (
@@ -142,7 +142,7 @@ export default function BiletBusPage() {
             className="aspect-video overflow-hidden border border-border"
           >
             <img 
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/biletbus-hero-3dERFAs6ojUewJOL1TLFdQd9JQirGg.png"
+              src="/images/projects/biletbus-hero.png"
               alt="БилетБус - Главная страница"
               className="w-full h-full object-cover"
             />
@@ -362,7 +362,7 @@ export default function BiletBusPage() {
                 className="aspect-video overflow-hidden border border-border"
               >
                 <img 
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/biletbus-admin-trips-1DMViCsL5G1yBb458QucogcpHjQ8Ww.png"
+                  src="/images/projects/biletbus-admin-trips.png"
                   alt="Админ-панель БилетБус"
                   className="w-full h-full object-cover"
                 />
@@ -385,7 +385,7 @@ export default function BiletBusPage() {
                 className="aspect-video overflow-hidden border border-border"
               >
                 <img 
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/biletbus-driver-eCLhZK5b9OP41sc41ROBZEpNAY6uIm.png"
+                  src="/images/projects/biletbus-driver.png"
                   alt="Панель водителя БилетБус"
                   className="w-full h-full object-cover"
                 />

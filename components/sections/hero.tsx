@@ -64,7 +64,7 @@ export function Hero() {
             <span className="absolute -top-6 left-0 text-[10px] uppercase tracking-widest text-muted-foreground">001 / Веб-разработка</span>
             <div className="aspect-[4/3] bg-foreground/5 overflow-hidden">
               <img 
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/%D0%B7%D0%B0%D0%B3%D1%80%D1%83%D0%B6%D0%B5%D0%BD%D0%BD%D0%BE%D0%B5%20%2851%29-hlbaslBRK7FnEI4ji5JOLQG3R0mLdm.jpg" 
+                src="/images/hero-1.jpg" 
                 alt="Vintage data center"
                 className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
               />
@@ -79,7 +79,7 @@ export function Hero() {
           >
             <div className="aspect-[4/3] bg-foreground/5 overflow-hidden">
               <img 
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/%D0%B7%D0%B0%D0%B3%D1%80%D1%83%D0%B6%D0%B5%D0%BD%D0%BD%D0%BE%D0%B5%20%2850%29-tWsKJsVAvocb55yIbmU7nJzwrR23iU.jpg" 
+                src="/images/hero-2.jpg" 
                 alt="Computer controlled display"
                 className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
               />
@@ -95,14 +95,14 @@ export function Hero() {
             <div className="grid grid-cols-2 gap-2">
               <div className="aspect-square bg-foreground/5 overflow-hidden">
                 <img 
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/%D0%B7%D0%B0%D0%B3%D1%80%D1%83%D0%B6%D0%B5%D0%BD%D0%BD%D0%BE%D0%B5%20%2848%29-3v9hexSAPg2Fr0uKnDxuh2LMxyNYhN.jpg" 
+                  src="/images/hero-3.jpg" 
                   alt="Apple Computer 1"
                   className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
                 />
               </div>
               <div className="aspect-square bg-foreground/5 overflow-hidden">
                 <img 
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Escape%20the%20system-HSOHM7tj7XRBHAskHnj0TDxF7TuVCR.jpg" 
+                  src="/images/hero-4.jpg" 
                   alt="Escape key"
                   className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
                 />

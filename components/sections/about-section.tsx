@@ -53,7 +53,7 @@ export function AboutSection() {
           <div className="col-span-6 md:col-span-4 lg:col-span-3">
             <div className="aspect-square rounded-full overflow-hidden bg-foreground/5">
               <img 
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Soriano%20Blanco_%20Photo-rVG65JHAWN0u4lPKh2UWWhdDEKQM6G.jpg" 
+                src="/images/about-1.jpg" 
                 alt="Floppy disk"
                 className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
               />
@@ -65,7 +65,7 @@ export function AboutSection() {
             <span className="text-[10px] uppercase tracking-widest text-muted-foreground mb-4 block">002 / Наша команда</span>
             <div className="aspect-[16/10] bg-foreground/5 overflow-hidden">
               <img 
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IBM%203270%20PC%20%28System%20Unit%205271%29-CDuE2QS5JasScynIXnxAqhbLbkn8IL.jpg" 
+                src="/images/about-2.jpg" 
                 alt="IBM 3270 PC"
                 className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
               />
@@ -75,7 +75,7 @@ export function AboutSection() {
           <div className="col-span-12 md:col-span-4 lg:col-span-4">
             <div className="aspect-[4/3] bg-foreground/5 overflow-hidden">
               <img 
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/%D0%B7%D0%B0%D0%B3%D1%80%D1%83%D0%B6%D0%B5%D0%BD%D0%BD%D0%BE%D0%B5%20%2851%29-J6iPfNiyGsjmNgnGH7JkviPUxMndOI.jpg" 
+                src="/images/about-3.jpg" 
                 alt="Military data center"
                 className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
               />

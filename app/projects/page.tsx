@@ -13,7 +13,7 @@ const projects = [
     href: "/projects/medved-neftegaz",
     externalUrl: "https://medved-neftegaz.ru/",
     description: "Корпоративный сайт для многомиллиардной компании в нефтегазовой отрасли с полнофункциональной системой управления контентом и 12+ разделами админ-панели.",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/medved-hero-YUKEkEWZhD4OZEzlmfhMD74LNnz22S.png",
+    image: "/images/projects/medved-hero.png",
     tags: ["Next.js", "TypeScript", "PostgreSQL", "Prisma", "CMS"]
   },
   {
@@ -24,7 +24,7 @@ const projects = [
     href: "/projects/finexpert",
     externalUrl: "https://fin-exp.vercel.app/",
     description: "Современный лендинг для финансовой консалтинговой компании с адаптивным дизайном, слайдером отзывов и формой обратной связи.",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/finexpert-hero-7AQMIGwPhRt8gkuBJadyIZSCkAK8Rv.png",
+    image: "/images/projects/finexpert-hero.png",
     tags: ["React", "Next.js", "Tailwind CSS", "SEO"]
   },
   {
@@ -35,7 +35,7 @@ const projects = [
     href: "/projects/cinemavault",
     externalUrl: "https://cinemavaulttest.vercel.app/",
     description: "Стриминговая платформа с каталогом фильмов, личными списками пользователей, системой авторизации и полноценной админ-панелью для управления контентом.",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/cinemavault-hero-lDEF5EV5G8hIA76oPE5jQRggYPRRu6.png",
+    image: "/images/projects/cinemavault-hero.png",
     tags: ["Next.js", "TypeScript", "PostgreSQL", "Auth.js", "Prisma"]
   },
   {
@@ -46,7 +46,7 @@ const projects = [
     href: "/projects/biletbus",
     externalUrl: "https://bitelbustestnew.vercel.app/",
     description: "Сервис онлайн-бронирования автобусных билетов с тремя ролями пользователей, PDF-билетами, панелью водителя и полноценной админ-панелью.",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/biletbus-hero-3dERFAs6ojUewJOL1TLFdQd9JQirGg.png",
+    image: "/images/projects/biletbus-hero.png",
     tags: ["Next.js", "TypeScript", "PostgreSQL", "Middleware", "PDF"]
   },
 ]

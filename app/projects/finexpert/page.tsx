@@ -47,31 +47,11 @@ const technologies = [
 ]
 
 const screenshots = [
-  {
-    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/finexpert-hero-7AQMIGwPhRt8gkuBJadyIZSCkAK8Rv.png",
-    alt: "Услуги компании",
-    label: "Услуги"
-  },
-  {
-    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/finexpert-about-8k2W9lKgYvGou0kI846mVvff5BGYV7.png",
-    alt: "О компании",
-    label: "Миссия"
-  },
-  {
-    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/finexpert-mission-9oJuoy5A2R3CTe2eY2eKoi0g5PZZme.png",
-    alt: "Принципы работы",
-    label: "Принципы"
-  },
-  {
-    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/finexpert-reviews-bxIbHcDYSIp5YdxfJ0VGpCB2EO4Fc3.png",
-    alt: "Отзывы клиентов",
-    label: "Отзывы"
-  },
-  {
-    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/finexpert-contact-AbPEheFWWELCtN5qWeoSAdDOOJEXMA.png",
-    alt: "Контакты",
-    label: "Контакты"
-  },
+  { src: "/images/projects/finexpert-hero.png", alt: "Услуги компании", label: "Услуги" },
+  { src: "/images/projects/finexpert-about.png", alt: "О компании", label: "Миссия" },
+  { src: "/images/projects/finexpert-mission.png", alt: "Принципы работы", label: "Принципы" },
+  { src: "/images/projects/finexpert-reviews.png", alt: "Отзывы клиентов", label: "Отзывы" },
+  { src: "/images/projects/finexpert-contact.png", alt: "Контакты", label: "Контакты" },
 ]
 
 export default function FinExpertPage() {
@@ -131,7 +111,7 @@ export default function FinExpertPage() {
             className="aspect-video overflow-hidden border border-border"
           >
             <img 
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/finexpert-about-8k2W9lKgYvGou0kI846mVvff5BGYV7.png"
+              src="/images/projects/finexpert-about.png"
               alt="ФинЭксперт - главная страница"
               className="w-full h-full object-cover"
             />
@@ -170,7 +150,7 @@ export default function FinExpertPage() {
                 </p>
                 <p>
                   Основная задача — создать профессиональный имидж компании, подчеркнуть экспертность и вызвать 
-                  доверие у потенциальных клиентов. Дизайн выполнен в сдержанных корпоративных тонах с акцентами 
+                  доверие у потенциальных клиентов. Дизайн выполнен в сдержа��ных корпоративных тонах с акцентами 
                   зеленого цвета, символизирующего стабильность и рост.
                 </p>
                 <p>
