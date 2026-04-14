@@ -5,13 +5,16 @@ import { useState } from "react"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
+import { Checkbox } from "@/components/ui/checkbox"
+import Link from "next/link"
 
 export function ContactForm() {
   const [formData, setFormData] = useState({
     name: "",
     phone: "",
     telegram: "",
-    message: ""
+    message: "",
+    agreed: false
   })
 
   const handleSubmit = (e: React.FormEvent) => {
@@ -125,13 +128,30 @@ export function ContactForm() {
                 />
               </div>
 
-              <div className="flex items-center justify-between pt-4">
-                <p className="text-[10px] text-muted-foreground max-w-xs">
-                  Нажимая кнопку, вы соглашаетесь с политикой конфиденциальности
-                </p>
+              <div className="flex items-start gap-3 pt-4">
+                <Checkbox
+                  id="privacy"
+                  checked={formData.agreed}
+                  onCheckedChange={(checked) => setFormData({ ...formData, agreed: checked as boolean })}
+                  className="mt-0.5"
+                />
+                <label htmlFor="privacy" className="text-xs text-muted-foreground leading-relaxed cursor-pointer">
+                  Я согласен с{" "}
+                  <Link href="/privacy" className="underline hover:text-foreground transition-colors">
+                    политикой конфиденциальности
+                  </Link>{" "}
+                  и{" "}
+                  <Link href="/terms" className="underline hover:text-foreground transition-colors">
+                    пользовательским соглашением
+                  </Link>
+                </label>
+              </div>
+
+              <div className="flex justify-end pt-4">
                 <Button 
                   type="submit"
-                  className="bg-foreground text-background hover:bg-accent px-8 py-6 rounded-none text-sm uppercase tracking-widest"
+                  disabled={!formData.agreed}
+                  className="bg-foreground text-background hover:bg-accent px-8 py-6 rounded-none text-sm uppercase tracking-widest disabled:opacity-50 disabled:cursor-not-allowed"
                 >
                   Отправить
                 </Button>

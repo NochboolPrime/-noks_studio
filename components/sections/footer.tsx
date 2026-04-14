@@ -87,10 +87,10 @@ export function Footer() {
             © 2026 НОКС. Все права защищены
           </span>
           <div className="flex items-center gap-8">
-            <Link href="#" className="text-[10px] uppercase tracking-widest text-muted-foreground hover:text-foreground transition-colors">
+            <Link href="/privacy" className="text-[10px] uppercase tracking-widest text-muted-foreground hover:text-foreground transition-colors">
               Политика конфиденциальности
             </Link>
-            <Link href="#" className="text-[10px] uppercase tracking-widest text-muted-foreground hover:text-foreground transition-colors">
+            <Link href="/terms" className="text-[10px] uppercase tracking-widest text-muted-foreground hover:text-foreground transition-colors">
               Пользовательское соглашение
             </Link>
           </div>
